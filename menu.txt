@@ -1,0 +1,62 @@
+.|Úvodní stránka|index.php
+.|Pøihlá¹ky|prihlasky.php
+.|Nový uchazeè|edit.php?atyp=3|¹estileté
+.|Vstup výsledkù|edit2.php?atyp=3|¹estileté
+.|Uèebny|ucebna.php|Rozmístìní uchazeèù do uèeben
+.|Vyhodnocení|vyhodnoceni.php|Vyhodnocení PZK
+.|Tøídy|tridy.php|Rozmístìní pøijatých do tøíd
+.|Sestavy
+..|Ko¹ilka|report.php?atyp=3&templ=kosilka|¹estileté
+..|Pozvánka
+...|Pozvánka - v¹e|report.php?atyp=3&templ=pozvanka|V¹echny pozvánky
+...|Pozvánka - 1. termín|report.php?atyp=3&templ=pozvanka&idt=1|Poøadí zájmu = 1
+...|Pozvánka - 2. termín|report.php?atyp=3&templ=pozvanka&idt=2|Poøadí zájmu = 2
+..|Uèebny
+...|seznam (1. termín)|report.php?templ=ucebna2&idt=1|Rozmístìní uchazeèù v uèebnách - bez AID
+...|seznam + AID (1. termín)|report.php?templ=ucebna3&idt=1|Rozmístìní uchazeèù v uèebnách - vèetnì AID
+...|seznam (2. termín|report.php?templ=ucebna2&idt=2|Rozmístìní uchazeèù v uèebnách - bez AID
+...|seznam + AID (2. termín)|report.php?templ=ucebna3&idt=2|Rozmístìní uchazeèù v uèebnách - vèetnì AID
+..|Výsledky
+...|výsledky (PDF)|report.php?templ=vyhodnoceni&atyp=3|Výsledky - komplet
+...|výsledky - splnili (PDF)|report.php?templ=vyhodnoceni&atyp=3&whr=splnil:1|Výsledky - splnili PZK
+...|výsledky - NEsplnili (PDF)|report.php?templ=vyhodnoceni&atyp=3&whr=splnil:0|Výsledky - NEsplnili PZK
+...|výsledky (veøejnost - PDF)|report.php?templ=vyhodnoceni&atyp=3&sec=1|Výsledky - bez jmen
+...|výsledky - splnili (veøejnost - PDF)|report.php?templ=vyhodnoceni&atyp=3&sec=1&whr=splnil:1|Výsledky splnili PZK - bez jmen
+...|výsledky - NEsplnili (veøejnost - PDF)|report.php?templ=vyhodnoceni&atyp=3&sec=1&whr=splnil:0|Výsledky splnili PZK - bez jmen
+...|seznam pøijatých (PDF)|report.php?templ=seznam&atyp=3&whr=prijat:1|Jmenný seznam pøiajtých
+...|seznam NEpøijatých (PDF)|report.php?templ=seznamne&atyp=3&whr=prijat:0|¹estileté
+...|pøijatí studenti|prijati.php
+..|Rozhodnutí
+...|pøijatí|report.php?templ=rozhodnuti&atyp=3&whr=prijat:1|Pøijatí studenti
+...|NEpøijatí|report.php?templ=rozhodnuti&atyp=3&whr=prijat:0|NEpøijatí studenti
+...|vyzvednutí|report.php?templ=postane&atyp=3|Vyzvednutí rozhodnutí
+..|Po¹ta
+...|pozvánky|report.php?templ=posta&atyp=3&whr=poslat_pozvanku:1|Sestava pro po¹tu
+...|pøijatí|report.php?templ=posta&atyp=3&whr=prijat:1|Sestava pro po¹tu
+...|NEpøijatí|report.php?templ=posta&atyp=3&whr=prijat:0|Sestava pro po¹tu
+...|pozvánka - 1. termín|report.php?templ=posta&atyp=3&whr=poradi_zajmu:1|Sestava pro po¹tu - 1. termín
+...|pozvánka - 2. termín|report.php?templ=posta&atyp=3&whr=poradi_zajmu:2|Sestava pro po¹tu - 2. termín
+...|pozvánky - seznam do knihy|report.php?templ=postakniha|...do knihy po¹ty
+...|rozhodnutí - seznam do knihy|report.php?templ=postakniha&sec=1|...do knihy po¹ty
+...|pøihlá¹ky - seznam do knihy|report.php?templ=postaknihaprihlasky|...do knihy po¹ty
+..|©títky||Adresní ¹títky
+...|pøijatí|labels.php?atyp=3&whr=prijat:1|Pøijatí studenti
+...|NEpøijatí|labels.php?atyp=3&whr=prijat:0|NEpøijatí studenti
+...|1. termín|labels.php?atyp=3&whr=poradi_zajmu:1|poøadí zájmu - Gybon
+...|2. termín|labels.php?atyp=3&whr=poradi_zajmu:2|poøadí zájmu - jiná ¹kola
+..|Ostatní
+...|Z© statistika|zs.php|Statistika uchazeèù podle ¹kol
+...|pro Z©|report.php?templ=zs|Sestava pro Z©
+...|pro S©|report.php?templ=ss|Sestava pro S©
+...|pro KÚ|javascript:if(confirm('Vytvoøit data pro KÚ?')) location='odvolani_kraj.php'; else void 0
+.|Datovka|datovka.php
+.|Konfigurace
+..|Veøejné stránky|public
+..|Vynulování poèitadla|reset_counter.php
+..|Èíselník Z©|zs_list.php
+..|Rejstøík ¹kol|https://profa.uiv.cz/rejskol/
+..|CERMAT|cermat.php
+..|Mo¾nosti|config.php
+..|-------------------------
+..|Adminer|adminer/|
+..|Editor|editor/|
